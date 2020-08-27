@@ -1,24 +1,3 @@
-@font-face {
-  font-family: OPTIImprovNewWideNine;
-  src: url("./Assets/OPTIImprovNewWideNine.ttf");
-}
-
-@font-face {
-  font-family: Grotta;
-  src: url("./Assets/Grotta-Regular.ttf");
-}
-@font-face {
-  font-family: Agrandir-GrandHeavy;
-  src: url("./Assets/Agrandir-GrandHeavy.ttf");
-}
-@font-face {
-  font-family: Agrandir-GrandLight;
-  src: url("./Assets/Agrandir-GrandLight.ttf");
-}
-@font-face {
-  font-family: Agrandir-WideLight;
-  src: url("./Assets/Agrandir-WideLight.ttf");
-}
 
 * {
   margin: 0;

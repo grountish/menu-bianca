@@ -23,8 +23,7 @@ const FoodCategory = ({ lang, nombre, nombre_en, nombre_es }) => {
           height: `calc(70vh/${foundPlace.categorias.length})`,
           alignItems: "center",
           display: "flex",
-          borderTop: `1px solid ${foundPlace.color}`,
-          borderBottom: `1px solid ${foundPlace.color}`
+          borderBottom: foundPlace.borderButton
         }}
       >
         <h1
@@ -33,6 +32,7 @@ const FoodCategory = ({ lang, nombre, nombre_en, nombre_es }) => {
             fontSize: `calc(62vh/${foundPlace.categorias.length}/2.5)`,
             margin: "auto",
             color: foundPlace.color,
+            fontFamily: "Brandon Bold"
           }}>
           {nameFood()}
         </h1>

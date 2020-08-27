@@ -11,6 +11,7 @@ const DivisionList = () => {
     <div className="centered fadeIn" >
       <div className="list-add">
         <ul className="list-food">
+        <CategoryAloneList />
           {divisions.map((division, index) => {
             return (
               <Link
@@ -24,7 +25,7 @@ const DivisionList = () => {
           })}
         </ul>
       </div>
-      <CategoryAloneList />
+      
     </div>
   );
 };

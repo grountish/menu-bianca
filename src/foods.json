@@ -650,18 +650,20 @@
     {
       "restaurant": "Bianca Helados & Café",
       "place": "bianca",
-      "iso": "",
+      "iso": "https://res.cloudinary.com/grountish/image/upload/v1598538045/Logo_Bianca_tjb4tl.png",
       "sugerenciaDelDiaTitulo": "Guineu Txiripa",
       "sugerenciaDelDiaBoton": "Cerrar",
       "sugerenciaDelDiaImg": "https://res.cloudinary.com/grountish/image/upload/v1597680879/guineu_lshuma.png",
       "sugerenciaDelDiaDescripcion": "",
       "backgroundColor": "white",
       "overlayColor": "rgba(0,0,0, 0.5)",
-      "borderButton": "1px solid #FFF",
-      "homeInverted":true,
+      "borderButton": "3px solid #FFF",
+      "homeInverted":false,
+      "hasUpselling":false,
       "modalBackgroundColor": "#FFF",
-      "font": "Tommaso",
-      "color": "#000",
+      "font": "Brandon Regular",
+      "font2": "Brandon Bold",
+      "color": "#10a7e0",
       "divisiones": [{
         "nombre_es": "Bebidas",
         "nombre": "Bebidas"
@@ -669,7 +671,7 @@
       "categorias": [{
         "division": "",
         "categoryAlone": true,
-        "nombre": "Promo",
+        "nombre": "Promos!",
         "data": [{
           "nombre": "Promo 1",
           "descripcion": "Café con leche con tostadas de pan blanco o negro y exprimido mediano",

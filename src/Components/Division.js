@@ -19,20 +19,19 @@ const Division = (props) => {
       <div
         className="box"
         style={{
-         
+          height: `calc(70vh/${foundPlace.categorias.length})`,
           alignItems: "center",
           display: "flex",
           borderBottom: foundPlace.borderButton,
-          borderTop: foundPlace.borderButton
         }}
       >
         <h1
           className="headerCategory"
           style={{
-           
+            fontSize: `calc(62vh/${foundPlace.categorias.length}/2.5)`,
             margin: "auto",
             color: foundPlace.color,
-            
+            fontFamily: "Brandon Bold"
           }}>
           {nameFood()}
         </h1>

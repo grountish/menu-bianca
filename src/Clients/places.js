@@ -7,9 +7,6 @@ import { DataContext } from "./../Context/Context";
 import SearchComponent from "../Components/SearchComponent";
 import foods from "../foods.json";
 import Helmet from "react-helmet";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
-import { AiOutlineSearch } from "react-icons/ai";
 import "./../App.css";
 import Upselling from "../Components/Upselling";
 import home from './../Assets/home.svg'
@@ -52,6 +49,24 @@ function Places() {
         return foundPlace[parameter];
     }
   };
+const hasUpselling = () => {
+  if(foundPlace.hasUpselling)
+  return <div className="buttonDivUpselling">
+  <button
+    style={{
+      border: foundPlace.borderButton,
+      color: foundPlace.color,
+    }}
+    className="buttonUpselling buttonSugerencia"
+    onClick={showModal}
+  >
+    {switchLang("sugerenciaButton")}
+  </button>
+</div>
+ else{
+   return null
+ }
+}
 
   return (
     <div className="App version-movil">
@@ -75,6 +90,7 @@ function Places() {
               <Helmet>
                 <style>{`body { background-color: ${foundPlace.backgroundColor}; min-height:100vh; font-family: ${foundPlace.font}; color: ${foundPlace.color}}`}</style>
               </Helmet>
+              <div style={{minHeight:'40px'}}>
                 {showBack ? (
                   <div onClick={categoryAndSearchSwitcher}>
                     {" "}
@@ -82,18 +98,7 @@ function Places() {
                       <img className="homeIcon" style={{filter: foundPlace.homeInverted? 'invert(1)':''}} src={home} alt=""/>
                     </Link>
                   </div>
-                ) : <div className="buttonDivUpselling">
-                <button
-                  style={{
-                    border: foundPlace.borderButton,
-                    color: foundPlace.color,
-                  }}
-                  className="buttonUpselling buttonSugerencia"
-                  onClick={showModal}
-                >
-                  {switchLang("sugerenciaButton")}
-                </button>
-              </div>}
+                ) : hasUpselling()}</div>
               {
                 foundPlace.hasLang
                 ? <div className="languages">
@@ -124,13 +129,13 @@ function Places() {
                 <div className="search-bar" onClick={() => setBuscar(!buscar)}>
                   {buscar ? (
                     <div className="buscador">
-                      <FontAwesomeIcon icon={faAngleLeft} />
-                      <p>{lang === "en" ? "Back" : "Volver"}</p>
+                     
+                      <p>{lang === "en" ? "< BACK" : " < VOLVER"}</p>
                     </div>
                   ) : (
                     <div className="buscador">
-                      <AiOutlineSearch />
-                      <p>{lang === "en" ? "Search" : "Buscar"}</p>
+                      {/* <AiOutlineSearch /> */}
+                      <p>{lang === "en" ? "SEARCH" : "BUSCAR"}</p>
                     </div>
                   )}
                 </div>
