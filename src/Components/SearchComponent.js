@@ -46,7 +46,7 @@ const SearchComponent = () => {
     const translations = {
       vegetarian: ["VEGETARIANO", "Vegetarian", "Vegetariano"],
       vegan: ["VEGANO", "Vegan", "Vegano"],
-      allergens:["ALERGENOS", "Allergens", "Alérgenos"]
+      celiacs:["CELIACS", "Allergens", "Alérgenos"]
     }
     switch (lang) {
       case "ca":
@@ -87,7 +87,7 @@ const SearchComponent = () => {
         <img src={celiacos} className="icono-svg" alt=""/>
 
 
-          {switchLang("allergens")}
+          {switchLang("celiacs")}
 
         </div>
       </div>
