@@ -170,6 +170,8 @@ a {
     font-weight: 100;
     margin: 0.1rem;
     font-size: 1.6rem;
+        line-height:24px;
+
     text-shadow: 1px 1px 1px white;
 }
 

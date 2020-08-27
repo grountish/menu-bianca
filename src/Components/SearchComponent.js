@@ -46,7 +46,7 @@ const SearchComponent = () => {
     const translations = {
       vegetarian: ["VEGETARIANO", "Vegetarian", "Vegetariano"],
       vegan: ["VEGANO", "Vegan", "Vegano"],
-      celiacs:["CELIACS", "Allergens", "Alérgenos"]
+      celiacs:["CELIACO", "Allergens", "Alérgenos"]
     }
     switch (lang) {
       case "ca":
