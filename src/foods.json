@@ -658,429 +658,541 @@
       "backgroundColor": "white",
       "overlayColor": "rgba(0,0,0, 0.5)",
       "borderButton": "3px solid #FFF",
-      "homeInverted":false,
-      "hasUpselling":false,
+      "homeInverted": false,
+      "hasUpselling": false,
       "modalBackgroundColor": "#FFF",
       "font": "Brandon Regular",
       "font2": "Brandon Bold",
       "color": "#10a7e0",
-      "divisiones": [{
-        "nombre_es": "Bebidas",
-        "nombre": "Bebidas"
-      }],
-      "categorias": [{
-        "division": "",
-        "categoryAlone": true,
-        "nombre": "Promos!",
-        "data": [{
-          "nombre": "Promo 1",
-          "descripcion": "Café con leche con tostadas de pan blanco o negro y exprimido mediano",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }, {
-          "nombre": "Promo 2",
-          "descripcion": "Café con leche con tostado árabe de pan blanco o integral y exprimido mediano",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }, {
-          "nombre": "Promo 3",
-          "descripcion": "Café con leche, dos medialunas de jamon y queso y exprimido mediano",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }, {
-          "nombre": "Promo 4",
-          "descripcion": "Café con leche, porción de budín y exprimido mediano",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }, {
-          "nombre": "Combo canastitas",
-          "descripcion": "2 canastitas gusto a elección y una gaseosa",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }, {
-          "nombre": "Combo tostado",
-          "descripcion": "Tostado árabe con tomate y gaseosa",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }, {
-          "nombre": "Combo tostado mixto",
-          "descripcion": "Tostado mixto y gaseosa",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }, {
-          "nombre": "Combo árabe",
-          "descripcion": "árabe y gaseosa",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }, {
-          "nombre": "Combo napolitano",
-          "descripcion": "napolitano y gaseosa",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }, {
-          "nombre": "Combo medialunas",
-          "descripcion": "2 medialunas rellenas y gaseosa",
-          "precio": "6 / 3.50",
-          "tags": ""
-        }]
-      }, {
-        "division": "Bebidas",
-        "nombre": "Cafés",
-        "categoryAlone": false,
-        "imagen": "",
-        "data": [{
-          "nombre": "Café pocillo",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Café jarrito",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Café con leche",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Café doble",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Capuccino",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Lágrima chica",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Lágrima doble",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Capuccino italiano",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Café irlandés",
-          "descripcion": "Café con whisky, crema y canela",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Capuccino Calipso",
-          "descripcion": "Café con Tía María, crema y canela",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Café español",
-          "descripcion": "Café con cognac, crema y canela",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Capuccino cubano",
-          "descripcion": "Café con ron dorado, crema y canela",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Café Baileys",
-          "descripcion": "café con Baileys, crema y chocolate",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }]
-      }, {
-        "division": "Bebidas",
-        "nombre": "Bebidas calientes",
-        "categoryAlone": false,
-        "imagen": "",
-        "data": [{
-          "nombre": "Chocolatada caliente",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Submarino",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Té/ mate cocido",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Té con leche",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }]
-      }, {
-        "division": "Bebidas",
-        "nombre": "Bebidas frías",
-        "categoryAlone": false,
-        "imagen": "",
-        "data": [{
-          "nombre": "Milkshake",
-          "descripcion": "Batido con leche sabor de helado a elección",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Smothie",
-          "descripcion": "Frutilla, durazno, ananá, manzana verde, maracuyá, frambuesa",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Capuccino frío",
-          "descripcion": "Chocolate, vainilla, dulce de leche, capuccino o crema oreo",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Licuado a base de agua/leche",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Exprimido de naranja",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Exprimido mediano",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Gaeosa de 600 ml",
-          "descripcion": "Línea Coca-Cola",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Gaeosa de 220 ml",
-          "descripcion": "Línea Coca-Cola",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Agua saborizada",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Agua mineral",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Agua con gas",
-          "descripcion": "",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }]
-      }, {
-        "division": "Bebidas",
-        "nombre": "Copas",
-        "categoryAlone": false,
-        "imagen": "",
-        "data": [{
-          "nombre": "Daikiri de frutilla",
-          "descripcion": "Helado de frutila con ron blanco, limón, azúcar y hielo",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Speed con limón",
-          "descripcion": "Helado de melón con vodka y speed",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Gancia batido",
-          "descripcion": "Helado de limón con granadina y Gancia",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Copa Orange",
-          "descripcion": "Helado de limón con vodka y jugo de naranja",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Daiquiri de durazno",
-          "descripcion": "Helado de durazno con ron blanco, limón, azúcar y hielo",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Copa Tía María",
-          "descripcion": "Helado de vainilla con Tía María, salsa de chocolate y crema",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Copa Sunset",
-          "descripcion": "Helado de chocolate con baileys y absolut vodka",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Copa Baileys",
-          "descripcion": "Helado de vainilla con licor baileys, salsa de chocolate y crema",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }, {
-          "nombre": "Copa Lemmon Champ",
-          "descripcion": "Helado de limón con un champagne chandon 187",
-          "precio": "1.9 / 2.1",
-          "tags": ""
-        }]
-      }, {
-        "division": "",
-        "nombre": "Pastelería artesanal",
-        "categoryAlone": true,
-        "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
-        "data": [{
-          "nombre": "Tiramisú",
-          "descripcion": "",
-          "precio": "8 / 8,2",
-          "tags": ""
-        }, {
-          "nombre": "Selva negra",
-          "descripcion": "",
-          "precio": "8 / 8,2",
-          "tags": ""
-        }, {
-          "nombre": "Sopa inglesa",
-          "descripcion": "",
-          "precio": "8 / 8,2",
-          "tags": ""
-        }, {
-          "nombre": "Chocotorta",
-          "descripcion": "",
-          "precio": "8 / 8,2",
-          "tags": ""
-        }, {
-          "nombre": "Cheesecake",
-          "descripcion": "",
-          "precio": "8 / 8,2",
-          "tags": ""
-        }, {
-          "nombre": "Brownie con merengue",
-          "descripcion": "",
-          "precio": "8 / 8,2",
-          "tags": ""
-        }, {
-          "nombre": "Lemmon pie",
-          "descripcion": "",
-          "precio": "8 / 8,2",
-          "tags": ""
-        }, {
-          "nombre": "Tres estaciones",
-          "descripcion": "",
-          "precio": "8 / 8,2",
-          "tags": ""
-        }, {
-          "nombre": "Crumble de manzana",
-          "descripcion": "",
-          "precio": "8 / 8,2",
-          "tags": ""
-        }]
-      }, {
-        "division": "",
-        "nombre": "Para acompañar",
-        "categoryAlone": true,
-        "imagen": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
-        "data": [{
-          "nombre": "Medialuna de manteca",
-          "descripcion": "",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }, {
-          "nombre": "Criollito de grasa",
-          "descripcion": "",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }, {
-          "nombre": "Chipá con queso",
-          "descripcion": "",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }, {
-          "nombre": "Brownie",
-          "descripcion": "",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }, {
-          "nombre": "Budín",
-          "descripcion": "De limón, marmolado o con arándanos",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }, {
-          "nombre": "Medialuna con jamón y queso",
-          "descripcion": "",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }, {
-          "nombre": "Tostadas de campo",
-          "descripcion": "",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }, {
-          "nombre": "Alfajor de chocolate",
-          "descripcion": "",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }, {
-          "nombre": "Mini alfajor de chocolate",
-          "descripcion": "",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }, {
-          "nombre": "Alfajor de maicena",
-          "descripcion": "",
-          "descripcion_en": "",
-          "precio": 7.5,
-          "tags": ""
-        }]
-      }, {
-        "division": "",
-        "nombre": "Sandwiches y canastitas",
-        "categoryAlone": true,
-        "imagen": "",
-        "data": [{
-          "nombre": "Tostado mixto",
-          "descripcion": "",
-          "precio": 5.5,
-          "tags": ""
-        }, {
-          "nombre": "Tostado árabe",
-          "descripcion": "",
-          "precio": 5.5,
-          "tags": ""
-        }, {
-          "nombre": "Tostado árabe de salvado",
-          "descripcion": "",
-          "precio": 5.5,
-          "tags": ""
-        }, {
-          "nombre": "Tostado napolitano",
-          "descripcion": "4 triples con queso, tomate y orégano",
-          "precio": 5.5,
-          "tags": ""
-        }, {
-          "nombre": "Canastitas",
-          "descripcion": "Jamón y queso, carne cortada a cuchillo, pollo con salsa blanca, verdura, capresse",
-          "precio": 5.5,
-          "tags": ""
-        }]
-      }]
-    }
+      "divisiones": [
+         {
+            "nombre_es": "Bebidas",
+            "nombre": "Bebidas"
+         }
+      ],
+      "categorias": [
+         {
+            "division": "",
+            "categoryAlone": true,
+            "nombre": "Promos!",
+            "data": [
+               {
+                  "nombre": "Promo 1",
+                  "descripcion": "Café con leche con tostadas de pan blanco o negro y exprimido mediano",
+                  "precio": 200,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Promo 2",
+                  "descripcion": "Café con leche con tostado árabe de pan blanco o integral y exprimido mediano",
+                  "precio": 270,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Promo 3",
+                  "descripcion": "Café con leche, dos medialunas de jamon y queso y exprimido mediano",
+                  "precio": 250,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Promo 4",
+                  "descripcion": "Café con leche, porción de budín y exprimido mediano",
+                  "precio": 190,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Promo café con medialunas",
+                  "descripcion": "Café con leche y 2 medialunas",
+                  "precio": 140,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Combo tostado",
+                  "descripcion": "Tostado árabe con tomate y gaseosa 250 ml",
+                  "precio": 200,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Combo tostado mixto",
+                  "descripcion": "Tostado mixto y gaseosa 250 ml",
+                  "precio": 220,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Combo árabe",
+                  "descripcion": "árabe y gaseosa 250 ml",
+                  "precio": 190,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Combo napolitano",
+                  "descripcion": "napolitano y gaseosa 250 ml",
+                  "precio": 250,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Combo canastitas",
+                  "descripcion": "2 canastitas gusto a elección y gaseosa 250 ml",
+                  "precio": 180,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Combo medialunas rellenas",
+                  "descripcion": "2 medialunas rellenas y gaseosa 250 ml",
+                  "precio": 200,
+                  "tags": ""
+               }
+            ]
+         },
+         {
+            "division": "Bebidas",
+            "nombre": "Cafés",
+            "categoryAlone": false,
+            "imagen": "",
+            "data": [
+               {
+                  "nombre": "Café pocillo",
+                  "descripcion": "",
+                  "precio": 80,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Café jarrito",
+                  "descripcion": "",
+                  "precio": 100,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Café con leche",
+                  "descripcion": "",
+                  "precio": 110,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Café doble",
+                  "descripcion": "",
+                  "precio": 120,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Capuccino",
+                  "descripcion": "",
+                  "precio": 130,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Lágrima chica",
+                  "descripcion": "",
+                  "precio": 100,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Lágrima doble",
+                  "descripcion": "",
+                  "precio": "110",
+                  "tags": ""
+               },
+               {
+                  "nombre": "Capuccino italiano",
+                  "descripcion": "",
+                  "precio": 140,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Café irlandés",
+                  "descripcion": "Café con whisky, crema y canela",
+                  "precio": 180,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Café Calipso",
+                  "descripcion": "Café con Tía María, crema y canela",
+                  "precio": 180,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Café español",
+                  "descripcion": "Café con cognac, crema y canela",
+                  "precio": 180,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Capuccino cubano",
+                  "descripcion": "Café con ron dorado, crema y canela",
+                  "precio": 180,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Café Baileys",
+                  "descripcion": "café con Baileys, crema y chocolate",
+                  "precio": 210,
+                  "tags": ""
+               }
+            ]
+         },
+         {
+            "division": "Bebidas",
+            "nombre": "Bebidas calientes",
+            "categoryAlone": false,
+            "imagen": "",
+            "data": [
+               {
+                  "nombre": "Chocolatada",
+                  "descripcion": "",
+                  "precio": 110,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Submarino",
+                  "descripcion": "",
+                  "precio": 120,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Té/ mate cocido",
+                  "descripcion": "",
+                  "precio": 80,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Vaso de leche",
+                  "descripcion": "",
+                  "precio": 80,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Adicional",
+                  "descripcion": "leche/crema",
+                  "precio": 30,
+                  "tags": ""
+               }
+            ]
+         },
+         {
+            "division": "Bebidas",
+            "nombre": "Bebidas frías",
+            "categoryAlone": false,
+            "imagen": "",
+            "data": [
+               {
+                  "nombre": "Milkshake",
+                  "descripcion": "Batido con leche sabor de helado a elección",
+                  "precio": 210,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Smoothie",
+                  "descripcion": "Frutilla, durazno, ananá, manzana verde, maracuyá, frambuesa",
+                  "precio": 150,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Capuccino frío",
+                  "descripcion": "Chocolate, vainilla, dulce de leche, capuccino o crema oreo",
+                  "precio": 150,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Licuado a base de agua/leche",
+                  "descripcion": "",
+                  "precio": 180,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Exprimido de naranja grande",
+                  "descripcion": "",
+                  "precio": 130,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Exprimido mediano",
+                  "descripcion": "",
+                  "precio": 80,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Gaeosa de 500 ml",
+                  "descripcion": "Línea Coca-Cola",
+                  "precio": 95,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Gaeosa de 250 ml",
+                  "descripcion": "Línea Coca-Cola",
+                  "precio": 60,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Agua saborizada",
+                  "descripcion": "",
+                  "precio": 80,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Agua mineral",
+                  "descripcion": "",
+                  "precio": 60,
+                  "tags": ""
+               }
+            ]
+         },
+         {
+            "division": "Bebidas",
+            "nombre": "Copas",
+            "categoryAlone": false,
+            "imagen": "",
+            "data": [
+               {
+                  "nombre": "Daiquiri de frutilla",
+                  "descripcion": "Helado de frutila con ron blanco, limón, azúcar y hielo",
+                  "precio": 220,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Speed con melón",
+                  "descripcion": "Helado de melón con vodka y speed",
+                  "precio": 220,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Gancia batido",
+                  "descripcion": "Helado de limón con granadina y Gancia",
+                  "precio": 200,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Copa Orange",
+                  "descripcion": "Helado de limón con vodka y jugo de naranja",
+                  "precio": 200,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Mojito",
+                  "descripcion": "Helado de limón, menta, ron blanco, limón, hielo y azúúcar",
+                  "precio": 200,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Copa Tía María",
+                  "descripcion": "Helado de vainilla con Tía María, salsa de chocolate y crema",
+                  "precio": 220,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Copa Tentación",
+                  "descripcion": "Helado de dulce de leche con Baileys y crema",
+                  "precio": 260,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Copa Baileys",
+                  "descripcion": "Helado de vainilla con licor Baileys, salsa de chocolate y crema",
+                  "precio": 260,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Copa Lemmon Champ",
+                  "descripcion": "Helado de limón con un champagne chandon 187",
+                  "precio": 260,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Don Pedro",
+                  "descripcion": "",
+                  "precio": 220,
+                  "tags": ""
+               }
+            ]
+         },
+         {
+            "division": "",
+            "nombre": "Pastelería artesanal",
+            "categoryAlone": true,
+            "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
+            "data": [
+               {
+                  "nombre": "Tiramisú",
+                  "descripcion": "",
+                  "precio": 170,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Selva negra",
+                  "descripcion": "",
+                  "precio": 170,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Sopa inglesa",
+                  "descripcion": "",
+                  "precio": 170,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Chocotorta",
+                  "descripcion": "",
+                  "precio": 170,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Cheesecake",
+                  "descripcion": "",
+                  "precio": 170,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Brownie con merengue",
+                  "descripcion": "",
+                  "precio": 170,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Lemmon pie",
+                  "descripcion": "",
+                  "precio": 170,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Tres estaciones",
+                  "descripcion": "",
+                  "precio": 170,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Crumble de manzana",
+                  "descripcion": "",
+                  "precio": "8 / 8,2",
+                  "tags": ""
+               }
+            ]
+         },
+         {
+            "division": "",
+            "nombre": "Para acompañar",
+            "categoryAlone": true,
+            "imagen": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
+            "data": [
+               {
+                  "nombre": "Medialuna de manteca",
+                  "descripcion": "",
+                  "precio": 20,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Criollito de grasa",
+                  "descripcion": "",
+                  "precio": 7.5,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Chipá de queso",
+                  "descripcion": "6 unidades",
+                  "precio": 120,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Brownie",
+                  "descripcion": "",
+                  "precio": 80,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Porción de budín",
+                  "descripcion": "De limón, marmolado o con arándanos",
+                  "precio": 80,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Budín entero",
+                  "descripcion": "",
+                  "precio": 155,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Medialuna con jamón y queso",
+                  "descripcion": "",
+                  "precio": 70,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Tostadas de campo",
+                  "descripcion": "",
+                  "precio": 80,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Alfajor de chocolate",
+                  "descripcion": "",
+                  "precio": 50,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Alfabrownie",
+                  "descripcion": "",
+                  "precio": 100,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Alfajor de maicena",
+                  "descripcion": "",
+                  "descripcion_en": "",
+                  "precio": 70,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Alfajor de coco con dulce de leche",
+                  "descripcion": "",
+                  "descripcion_en": "",
+                  "precio": 80,
+                  "tags": ""
+               }
+            ]
+         },
+         {
+            "division": "",
+            "nombre": "Sandwiches y canastitas",
+            "categoryAlone": true,
+            "imagen": "",
+            "data": [
+               {
+                  "nombre": "Tostado mixto",
+                  "descripcion": "",
+                  "precio": 180,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Tostado árabe",
+                  "descripcion": "",
+                  "precio": 150,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Tostado árabe con tomate",
+                  "descripcion": "",
+                  "precio": 180,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Tostado napolitano",
+                  "descripcion": "4 triples con queso, tomate y orégano",
+                  "precio": 210,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Canastita carne/ pollo",
+                  "descripcion": "carne cortada a cuchillo o pollo con salsa blanca",
+                  "precio": 70,
+                  "tags": ""
+               },
+               {
+                  "nombre": "Canastitas",
+                  "descripcion": "Jamón y queso, verdura o capresse",
+                  "precio": 60,
+                  "tags": ""
+               }
+            ]
+         }
+      ]
+   }
   ]
 }

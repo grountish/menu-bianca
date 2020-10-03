@@ -67,30 +67,7 @@ const SearchComponent = () => {
         inputValue={inputValue}
         lang={lang}
       />
-      <div className="iconos-filter">
-        <div className="iconos-filter-text" onClick={() => filterByTag("vega")}>
-          <img src={veganos} className="icono-svg" alt=""/>
-          {switchLang("vegan")}
-        </div>
-        <div
-          className="iconos-filter-text"
-          onClick={() => filterByTag("vegetaria")}
-        >
-           <img src={vegetarianos} className="icono-svg" alt=""/>
-          {switchLang("vegetarian")}
-        </div>
-        <AlergenosPopUp
-          isOpenPopUp={isOpenPopUp}
-          showAllergenPopUp={showAllergenPopUp}
-        />
-        <div className="iconos-filter-text" >
-        <img src={celiacos} className="icono-svg" alt=""/>
-
-
-          {switchLang("celiacs")}
-
-        </div>
-      </div>
+      
       <div className="list-add">
         <ul className="list-food">
           {displayAllergList
