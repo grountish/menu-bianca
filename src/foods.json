@@ -1057,12 +1057,6 @@
                   "descripcion": "",
                   "precio": 170,
                   "tags": ""
-               },
-               {
-                  "nombre": "Crumble de manzana",
-                  "descripcion": "",
-                  "precio": "8 / 8,2",
-                  "tags": ""
                }
             ]
          },
@@ -1079,15 +1073,9 @@
                   "tags": ""
                },
                {
-                  "nombre": "Criollito de grasa",
-                  "descripcion": "",
-                  "precio": 7.5,
-                  "tags": ""
-               },
-               {
                   "nombre": "Chipá de queso",
                   "descripcion": "6 unidades",
-                  "precio": 120,
+                  "precio": 100,
                   "tags": ""
                },
                {
@@ -1098,7 +1086,7 @@
                },
                {
                   "nombre": "Porción de budín",
-                  "descripcion": "De limón, marmolado o con arándanos",
+                  "descripcion": "De limón o marmolado",
                   "precio": 80,
                   "tags": ""
                },
