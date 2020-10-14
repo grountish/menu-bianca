@@ -647,13 +647,13 @@
       }]
     },
 
-    {
+ {
       "restaurant": "Bianca Helados & Café",
       "place": "bianca",
       "iso": "https://res.cloudinary.com/grountish/image/upload/v1598538045/Logo_Bianca_tjb4tl.png",
-      "sugerenciaDelDiaTitulo": "Guineu Txiripa",
+      "sugerenciaDelDiaTitulo": "",
       "sugerenciaDelDiaBoton": "Cerrar",
-      "sugerenciaDelDiaImg": "https://res.cloudinary.com/grountish/image/upload/v1597680879/guineu_lshuma.png",
+      "sugerenciaDelDiaImg": "",
       "sugerenciaDelDiaDescripcion": "",
       "backgroundColor": "white",
       "overlayColor": "rgba(0,0,0, 0.5)",
@@ -825,7 +825,7 @@
                {
                   "nombre": "Café Baileys",
                   "descripcion": "café con Baileys, crema y chocolate",
-                  "precio": 210,
+                  "precio": 180,
                   "tags": ""
                }
             ]
@@ -883,13 +883,13 @@
                {
                   "nombre": "Smoothie",
                   "descripcion": "Frutilla, durazno, ananá, manzana verde, maracuyá, frambuesa",
-                  "precio": 150,
+                  "precio": 210,
                   "tags": ""
                },
                {
                   "nombre": "Capuccino frío",
                   "descripcion": "Chocolate, vainilla, dulce de leche, capuccino o crema oreo",
-                  "precio": 150,
+                  "precio": 210,
                   "tags": ""
                },
                {
@@ -913,7 +913,7 @@
                {
                   "nombre": "Gaeosa de 500 ml",
                   "descripcion": "Línea Coca-Cola",
-                  "precio": 95,
+                  "precio": 90,
                   "tags": ""
                },
                {
@@ -951,19 +951,19 @@
                {
                   "nombre": "Speed con melón",
                   "descripcion": "Helado de melón con vodka y speed",
-                  "precio": 220,
+                  "precio": 290,
                   "tags": ""
                },
                {
                   "nombre": "Gancia batido",
                   "descripcion": "Helado de limón con granadina y Gancia",
-                  "precio": 200,
+                  "precio": 280,
                   "tags": ""
                },
                {
                   "nombre": "Copa Orange",
                   "descripcion": "Helado de limón con vodka y jugo de naranja",
-                  "precio": 200,
+                  "precio": 280,
                   "tags": ""
                },
                {
@@ -975,7 +975,7 @@
                {
                   "nombre": "Copa Tía María",
                   "descripcion": "Helado de vainilla con Tía María, salsa de chocolate y crema",
-                  "precio": 220,
+                  "precio": 290,
                   "tags": ""
                },
                {
@@ -987,19 +987,19 @@
                {
                   "nombre": "Copa Baileys",
                   "descripcion": "Helado de vainilla con licor Baileys, salsa de chocolate y crema",
-                  "precio": 260,
+                  "precio": 340,
                   "tags": ""
                },
                {
                   "nombre": "Copa Lemmon Champ",
                   "descripcion": "Helado de limón con un champagne chandon 187",
-                  "precio": 260,
+                  "precio": 340,
                   "tags": ""
                },
                {
                   "nombre": "Don Pedro",
                   "descripcion": "",
-                  "precio": 220,
+                  "precio": 280,
                   "tags": ""
                }
             ]
@@ -1013,49 +1013,49 @@
                {
                   "nombre": "Tiramisú",
                   "descripcion": "",
-                  "precio": 170,
+                  "precio": 190,
                   "tags": ""
                },
                {
                   "nombre": "Selva negra",
                   "descripcion": "",
-                  "precio": 170,
+                  "precio": 190,
                   "tags": ""
                },
                {
                   "nombre": "Sopa inglesa",
                   "descripcion": "",
-                  "precio": 170,
+                  "precio": 190,
                   "tags": ""
                },
                {
                   "nombre": "Chocotorta",
                   "descripcion": "",
-                  "precio": 170,
+                  "precio": 210,
                   "tags": ""
                },
                {
                   "nombre": "Cheesecake",
                   "descripcion": "",
-                  "precio": 170,
+                  "precio": 210,
                   "tags": ""
                },
                {
                   "nombre": "Brownie con merengue",
                   "descripcion": "",
-                  "precio": 170,
+                  "precio": 190,
                   "tags": ""
                },
                {
                   "nombre": "Lemmon pie",
                   "descripcion": "",
-                  "precio": 170,
+                  "precio": 190,
                   "tags": ""
                },
                {
                   "nombre": "Tres estaciones",
                   "descripcion": "",
-                  "precio": 170,
+                  "precio": 190,
                   "tags": ""
                }
             ]
@@ -1081,19 +1081,13 @@
                {
                   "nombre": "Brownie",
                   "descripcion": "",
-                  "precio": 80,
+                  "precio": 100,
                   "tags": ""
                },
                {
                   "nombre": "Porción de budín",
                   "descripcion": "De limón o marmolado",
                   "precio": 80,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Budín entero",
-                  "descripcion": "",
-                  "precio": 155,
                   "tags": ""
                },
                {
@@ -1111,7 +1105,7 @@
                {
                   "nombre": "Alfajor de chocolate",
                   "descripcion": "",
-                  "precio": 50,
+                  "precio": 60,
                   "tags": ""
                },
                {
@@ -1124,7 +1118,7 @@
                   "nombre": "Alfajor de maicena",
                   "descripcion": "",
                   "descripcion_en": "",
-                  "precio": 70,
+                  "precio": 80,
                   "tags": ""
                },
                {
